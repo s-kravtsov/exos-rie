@@ -1,3 +1,1 @@
-sergeikravtsov console  Nov  7 12:56 
-sergeikravtsov ttys000  Nov  8 13:37 
-sergeikravtsov ttys001  Nov  8 13:58 
+_mbsetupuser
