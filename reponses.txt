@@ -1,0 +1,8 @@
+grep bash /etc/passwd | cut -d: -f1 | sort > bashusers.txt
+who | cut -d' ' -f1 | sort > onlineusers.txt
+ls /etc | grep conf
+ls /etc | grep -i conf | sort
+/sbin/ifconfig | head -2 | grep 'inet ' | tr -s ' ' | cut -d' ' -f3,5
+cat text | tr -d ',!$?.*&^%#@;()-'
+cat text2 | tr ' ' '\n'
+cat text | tr 'A-Z ' 'a-z\n' | sort | uniq | comm -23 - DICT
